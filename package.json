@@ -1,0 +1,20 @@
+{
+  "name": "frontend-project-44",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Labauri/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Labauri/frontend-project-44/actions)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Labauri/frontend-project-44.git"
+  },
+  "author": "Artem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Labauri/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/Labauri/frontend-project-44#readme"
+}
