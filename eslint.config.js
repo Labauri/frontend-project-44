@@ -11,6 +11,24 @@ const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({baseDirectory: __dirname, recommendedConfig: pluginJs.configs.recommended});
 
 export default [
-  {languageOptions: { globals: globals.browser }},
+  {languageOptions: { globals: globals.browser}},
   ...compat.extends("airbnb"),
+  { "rules": {
+    "import/extensions": "off",
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "no-console": 0
+  }}
 ];
+
+// export default [
+//   {languageOptions: { globals: globals.browser, parser: "@babel/eslint-parser", parserOptions: { ecmaVersion: 2020, sourceType: module }}},
+//   ...compat.extends("airbnb"),
+//   { "rules": {
+//     "import/extensions": "off",
+//     "import/no-named-as-default": 0,
+//     "import/no-named-as-default-member": 0,
+//     "semi": ["error", "never"]
+//   }}
+// ];
+
