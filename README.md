@@ -3,9 +3,9 @@
 
 Здесь представлен пример использования игры "Нахождение четного числа" с помощью аскинемы:
 
-![asciinema](https://asciinema.org/a/HjGQT9kGE1m5nNzqqGydrCjWz)
+[asciinema](https://asciinema.org/a/HjGQT9kGE1m5nNzqqGydrCjWz)
 
 Здесь представлен пример использования игры "Калькулятор" с помощью аскинемы:
 
-![asciinema](https://asciinema.org/a/EXVgRpz9J5mPU7b1Stlp5JzJj)
+[asciinema](https://asciinema.org/a/EXVgRpz9J5mPU7b1Stlp5JzJj)
 
