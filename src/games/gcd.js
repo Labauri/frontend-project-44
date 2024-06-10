@@ -1,25 +1,31 @@
 import playGame from '../index.js';
 
-const description = 'Find the greatest common divisor of given numbers.'
+const description = 'Find the greatest common divisor of given numbers.';
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const gcd = (a, b) => {
-  while (b) {
-    [a, b] = [b, a % b]; 
+  let firstValue = a;
+  let secondValue = b;
+
+  while (secondValue !== 0) {
+    const storage = secondValue;
+    secondValue = firstValue % secondValue;
+    firstValue = storage;
   }
-  return a;
-}
+
+  return firstValue;
+};
 
 const generateRound = () => {
-  const num1 = getRandomNumber(1, 100); 
-  const num2 = getRandomNumber(1, 100); 
+  const num1 = getRandomNumber(1, 100);
+  const num2 = getRandomNumber(1, 100);
 
   const gcdValue = gcd(num1, num2);
-  
+
   const question = `${num1} ${num2}`;
   const correctAnswer = String(gcdValue);
-  
+
   return [question, correctAnswer];
 };
 
-export default () => playGame(description, generateRound); 
+export default () => playGame(description, generateRound);
