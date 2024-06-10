@@ -9,3 +9,6 @@ Here is an example of using the game "Calculator" using askinema:
 
 [Calc](https://asciinema.org/a/EXVgRpz9J5mPU7b1Stlp5JzJj)
 
+Here is an example of using the game "Greatest common divisor of given numbers" using askinema:
+
+[Gcd](https://asciinema.org/a/754WLdfzC2d0lxsn3KwO9zvL0)
