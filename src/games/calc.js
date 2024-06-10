@@ -1,14 +1,14 @@
 import playGame from '../index.js';
 
 const description = 'What is the result of the expression?';
-const randomIndex = (max) => Math.floor(Math.random() * max);
-const randomNumber = () => Math.floor(Math.random() * 100) + 1;
+const getRandomIndex = (max) => Math.floor(Math.random() * max);
+const getRandomNumber = () => Math.floor(Math.random() * 100) + 1;
 
 const generateRound = () => {
   const operator = ['+', '-', '*'];
-  const num1 = randomNumber();
-  const num2 = randomNumber();
-  const randomOperator = operator[randomIndex(operator.length)];
+  const num1 = getRandomNumber();
+  const num2 = getRandomNumber();
+  const randomOperator = operator[getRandomIndex(operator.length)];
 
   const question = `${num1} ${randomOperator} ${num2}`;
   let correctAnswer;
