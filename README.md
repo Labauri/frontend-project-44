@@ -12,3 +12,7 @@ Here is an example of using the game "Calculator" using askinema:
 Here is an example of using the game "Greatest common divisor of given numbers" using askinema:
 
 [Gcd](https://asciinema.org/a/754WLdfzC2d0lxsn3KwO9zvL0)
+
+Here is an example of using the game "Arithmetic progression" using askinema:
+
+[Progression](https://asciinema.org/a/FIRbY43SPG7QyBX7wydgNRbqe)
