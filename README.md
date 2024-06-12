@@ -16,3 +16,7 @@ Here is an example of using the game "Greatest common divisor of given numbers" 
 Here is an example of using the game "Arithmetic progression" using askinema:
 
 [Progression](https://asciinema.org/a/FIRbY43SPG7QyBX7wydgNRbqe)
+
+Here is an example of using the game "Prime number" using askinema:
+
+[Prime Number](https://asciinema.org/a/B8qLrcrqHReS3tjnWYQL4AZN8)
