@@ -20,3 +20,42 @@ Here is an example of using the game "Arithmetic progression" using askinema:
 Here is an example of using the game "Prime number" using askinema:
 
 [Prime Number](https://asciinema.org/a/B8qLrcrqHReS3tjnWYQL4AZN8)
+
+
+## How to develop
+
+Fist you need to build app with:
+```
+npm run build
+```
+
+Then you can run games with:
+
+### Game "Is number even"
+```
+/bin/brain-even.js
+```
+
+### Game "Calculations"
+```
+/bin/brain-calc.js
+```
+
+### Game "Greatest common divisor"
+```
+/bin/brain-gcd.js
+```
+
+### Game "Arithmetical progression"
+```
+/bin/brain-progression.js
+```
+
+### Game "Is number prime"
+```
+/bin/brain-prime.js
+```
+
+## Config
+
+There are 3 rounds of every game by default. You can change it in `src/index.js`. 
