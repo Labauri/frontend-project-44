@@ -5,7 +5,7 @@ const roundsToWin = 3;
 const playGame = (description, generateRound) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
-  console.log(`Hi, ${name}!`);
+  console.log(`Hello, ${name}!`);
   console.log(description);
 
   for (let i = 0; i < roundsToWin; i += 1) {
