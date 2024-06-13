@@ -29,6 +29,3 @@ const generateRound = () => {
 };
 
 export default () => playGame(description, generateRound);
-
-
-

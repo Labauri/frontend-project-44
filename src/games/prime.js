@@ -13,11 +13,11 @@ const isPrime = (num) => {
 };
 
 const generateRound = () => {
-  const num = getRandomNumber(1, 100); 
-  const question = String(num); 
-  const correctAnswer = isPrime(num) ? 'yes' : 'no'; 
-  
+  const num = getRandomNumber(1, 100);
+  const question = String(num);
+  const correctAnswer = isPrime(num) ? 'yes' : 'no';
+
   return [question, correctAnswer];
-}
+};
 
 export default () => playGame(description, generateRound);
