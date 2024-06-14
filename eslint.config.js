@@ -27,7 +27,7 @@ export default [
       'import/no-named-as-default-member': 0,
       'no-console': 0,
       'no-underscore-dangle': ['error', { allow: ['__filename', '__dirname'] }],
-      'max-len': ['error', { code: 110, ignoreComments: true }],
+      'max-len': 'off',
     },
   },
 ];
