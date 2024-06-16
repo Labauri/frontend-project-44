@@ -7,7 +7,9 @@ import pluginJs from '@eslint/js';
 // mimic CommonJS variables -- not needed if using CommonJS
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const compat = new FlatCompat({ baseDirectory: __dirname, recommendedConfig: pluginJs.configs.recommended });
+const compat = new FlatCompat({
+  baseDirectory: __dirname, recommendedConfig: pluginJs.configs.recommended,
+});
 
 export default [
   {
@@ -27,7 +29,6 @@ export default [
       'import/no-named-as-default-member': 0,
       'no-console': 0,
       'no-underscore-dangle': ['error', { allow: ['__filename', '__dirname'] }],
-      'max-len': 'off',
     },
   },
 ];
